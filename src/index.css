@@ -8,35 +8,54 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Rick and Morty inspired color palette */
+    --background: 193 40% 8%;
+    --foreground: 120 100% 85%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card: 193 35% 12%;
+    --card-foreground: 120 100% 85%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover: 193 35% 12%;
+    --popover-foreground: 120 100% 85%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 120 100% 50%;
+    --primary-foreground: 193 40% 8%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 300 100% 60%;
+    --secondary-foreground: 193 40% 8%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 193 30% 15%;
+    --muted-foreground: 120 30% 65%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 300 100% 60%;
+    --accent-foreground: 193 40% 8%;
 
-    --destructive: 0 84.2% 60.2%;
+    --destructive: 0 100% 65%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 193 25% 20%;
+    --input: 193 25% 18%;
+    --ring: 120 100% 50%;
 
-    --radius: 0.5rem;
+    --radius: 0.75rem;
+
+    /* Custom Rick and Morty colors */
+    --rick-blue: 193 100% 65%;
+    --morty-yellow: 45 100% 70%;
+    --portal-green: 120 100% 50%;
+    --space-purple: 300 100% 60%;
+    --lab-green: 140 80% 45%;
+    --dimension-blue: 220 100% 70%;
+
+    /* Gradients */
+    --gradient-portal: linear-gradient(135deg, hsl(var(--portal-green)), hsl(var(--space-purple)));
+    --gradient-space: linear-gradient(180deg, hsl(var(--background)), hsl(193 50% 5%));
+    --gradient-toxic: linear-gradient(45deg, hsl(var(--lab-green)), hsl(var(--portal-green)));
+
+    /* Animations */
+    --transition-portal: all 0.4s cubic-bezier(0.23, 1, 0.320, 1);
+    --glow-portal: 0 0 20px hsl(var(--portal-green) / 0.5);
+    --glow-space: 0 0 30px hsl(var(--space-purple) / 0.3);
 
     --sidebar-background: 0 0% 98%;
 

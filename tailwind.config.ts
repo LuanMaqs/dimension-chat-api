@@ -52,6 +52,13 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				// Rick and Morty custom colors
+				'rick-blue': 'hsl(var(--rick-blue))',
+				'morty-yellow': 'hsl(var(--morty-yellow))',
+				'portal-green': 'hsl(var(--portal-green))',
+				'space-purple': 'hsl(var(--space-purple))',
+				'lab-green': 'hsl(var(--lab-green))',
+				'dimension-blue': 'hsl(var(--dimension-blue))',
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
